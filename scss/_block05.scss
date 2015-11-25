@@ -1,0 +1,63 @@
+.b05 {
+	color: #2a2a2a;
+	padding: 50px 0 30px 0;
+
+	h2 {
+		font-size: 29px;
+		line-height: 30px;
+		margin-bottom: 55px;
+	}
+
+	.advantage {
+		margin: 0;
+		padding: 0;
+		font-size: 0;
+		line-height: 0;
+
+		li {
+			float: left;
+			width: 280px;
+			padding-top: 120px;
+			text-align: center;
+			margin-bottom: 20px;
+
+			&.item1 {
+				background: url("../img/b05_item1.png") top center no-repeat;
+			}
+
+			&.item2 {
+				margin-left: 75px;
+				background: url("../img/b05_item1.png") top center no-repeat;
+			}
+
+			&.item3 {
+				margin-left: 75px;
+				background: url("../img/b05_item1.png") top center no-repeat;
+			}
+
+			&.item4 {
+				margin-left: 175px;
+				background: url("../img/b05_item1.png") top center no-repeat;
+			}
+
+			&.item5 {
+				margin-left: 75px;
+				background: url("../img/b05_item1.png") top center no-repeat;
+			}
+		}
+
+		.advantage__title {
+			font-size: 14px;
+			line-height: 16px;
+			margin-bottom: 15px;
+			text-transform: uppercase;
+			font-family: $font-UniSansHeavy;
+		}
+
+		.advantage__text {
+			font-size: 14px;
+			line-height: 17px;
+			font-family: $font-arian;
+		}
+	}
+}

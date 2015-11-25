@@ -1,0 +1,111 @@
+.form-control {
+	margin: 0;
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #595959;
+	font-size: 13px;
+	background: #fff;
+	line-height: 21px;
+	font-weight: 300;
+	display: inline-block;
+	padding: 10px 10px 10px 50px;
+	@include border-radius(4px);
+	@include placeholder(#595959);
+
+	&::-ms-clear {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+
+	&.form-name {
+		background: #fff url("../img/icon_user.png") 12px 50% no-repeat;
+	}
+
+	&.form-phone{
+		background: #fff url("../img/icon_phone.png") 12px 50% no-repeat;
+	}
+
+	&.form-email {
+		background: #fff url("../img/icon_email.png") 12px 50% no-repeat;
+	}
+
+	&:focus {
+		@include placeholder(transparent);
+	}
+}
+.red {
+
+	.form-control {
+		border-color: #ff0000;
+
+		&.invert {
+			border-color: #ff0000;
+		}
+	}
+}
+
+
+label {
+	font-weight: 400;
+	display: block;
+}
+
+.form-group {
+	margin-bottom: 12px;
+}
+
+.form-block {
+	width: 316px;
+	padding: 20px;
+	background: rgba(44,44,44, 0.8);
+	@include border-radius(4px);
+}
+
+.form__title {
+	color: #e8cf00;
+	margin: 0 -10px;
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 15px;
+	font-family: $font-UniSansHeavy;
+}
+
+.form__text {
+	color: #fff;
+	margin: 0 -10px;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 16px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.form__valid {
+	color: #abacad;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 15px;
+	text-align: center;
+	margin-top: -5px;
+	margin-bottom: 8px;
+}
+
+.form__sup {
+	color: #fff;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+}
+
+.btn_close {
+	top: -45px;
+	right: -84px;
+	width: 57px;
+	height: 57px;
+	cursor: pointer;
+	position: absolute;
+	background: url("../img/icon_close.png") 0 0 no-repeat;
+}

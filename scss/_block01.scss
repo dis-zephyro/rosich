@@ -1,0 +1,80 @@
+.b01 {
+	height: 694px;
+	color: #1c1c1c;
+	background: url("../img/b01_bg.jpg") top center no-repeat;
+
+	.b01__form {
+		padding-top: 200px;
+
+		.form-block {
+			float: right;
+		}
+	}
+
+	.b01__top {
+		height: 100px;
+		position: relative;
+	}
+
+	.b01__logo {
+		left: 0;
+		top: 25px;
+		width: 80px;
+		height: 80px;
+		position: absolute;
+	}
+
+	.b01__text {
+		top: 40px;
+		left: 95px;
+		color: #1c1c1c;
+		position: absolute;
+
+		.b01__name {
+			font-size: 16px;
+			line-height: 20px;
+			margin-bottom: 3px;
+			font-family: $font-UniSansHeavy;
+		}
+
+		.b01__slogan {
+			font-size: 12px;
+			line-height: 15px;
+		}
+	}
+
+	h1 {
+		top: 40px;
+		left: 300px;
+		width: 300px;
+		color: #1c1c1c;
+		font-size: 20px;
+		line-height: 25px;
+		position: absolute;
+		text-align: center;
+		font-family: $font-UniSansHeavy;
+	}
+
+	.b01__contact {
+		top: 30px;
+		right: 0;
+		width: 330px;
+		color: #1c1c1c;
+		text-align: right;
+		position: absolute;
+
+		.b01__phone {
+			color: #1c1c1c;
+			font-size: 18px;
+			line-height: 25px;
+			margin-bottom: 10px;
+			font-family: $font-UniSansHeavy;
+
+			a {
+				color: #1c1c1c !important;
+				text-decoration: none !important;
+			}
+		}
+	}
+
+}

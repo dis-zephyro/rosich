@@ -1,0 +1,44 @@
+.b06 {
+	color: #fff;
+	height: 775px;
+	padding: 60px 0;
+	background: url("../img/b06_bg.jpg") top center no-repeat;
+
+	h2 {
+		margin-bottom: 60px;
+	}
+
+	.partners {
+		padding: 0;
+		list-style: none;
+		margin: 0 -6px 90px -6px;
+
+		li {
+			float: left;
+			width: 143px;
+			padding: 0 6px;
+			overflow: hidden;
+		}
+	}
+
+	.reply {
+		padding: 0;
+		list-style: none;
+		margin: 0 -15px 90px -15px;
+
+		li {
+			float: left;
+			width: 255px;
+			height: 271px;
+			overflow: hidden;
+			padding: 30px 51px 10px 51px;
+			background: url("../img/sert_bg.jpg") top center no-repeat;
+
+			a {
+				width: 100%;
+				display: block;
+				cursor: pointer;
+			}
+		}
+	}
+}
