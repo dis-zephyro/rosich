@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="rosich" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="rosich2" autoUploadExternalChanges="true">
     <serverData>
       <paths name="rosich">
         <serverdata>
           <mappings>
             <mapping deploy="/www/zephyrus.ru/project/2015/rosich" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="rosich2">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/rosich134.ru" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

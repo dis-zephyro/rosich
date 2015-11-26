@@ -2732,20 +2732,18 @@ label {
   height: 694px;
   color: #1c1c1c;
   background: url("../img/b01_bg.jpg") top center no-repeat; }
-  .b01 .b01__form {
-    padding-top: 200px; }
-    .b01 .b01__form .form-block {
-      color: #fff;
-      float: right;
-      background: rgba(44, 44, 44, 0.88); }
-    .b01 .b01__form .form__title {
-      color: #e8cf00; }
-    .b01 .b01__form .form__text {
-      color: #fff; }
-    .b01 .b01__form .form-control {
-      border-color: transparent; }
-    .b01 .b01__form .red .form-control {
-      border-color: #ff0000; }
+  .b01 .b01__form .form-block {
+    color: #fff;
+    float: right;
+    background: rgba(44, 44, 44, 0.88); }
+  .b01 .b01__form .form__title {
+    color: #e8cf00; }
+  .b01 .b01__form .form__text {
+    color: #fff; }
+  .b01 .b01__form .form-control {
+    border-color: transparent; }
+  .b01 .b01__form .red .form-control {
+    border-color: #ff0000; }
   .b01 .b01__top {
     height: 100px;
     position: relative; }
@@ -2794,6 +2792,19 @@ label {
       .b01 .b01__contact .b01__phone a {
         color: #1c1c1c !important;
         text-decoration: none !important; }
+  .b01 h2 {
+    font-size: 38px;
+    line-height: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px; }
+    .b01 h2 .h2__row {
+      color: #fff;
+      font-size: 30px;
+      line-height: 30px;
+      padding: 5px 15px;
+      margin-top: 6px;
+      background: #2d2d2d;
+      display: inline-block; }
 
 .b02 {
   color: #1c1c1c;

@@ -4,7 +4,6 @@
 	background: url("../img/b01_bg.jpg") top center no-repeat;
 
 	.b01__form {
-		padding-top: 200px;
 
 		.form-block {
 			color: #fff;
@@ -98,4 +97,20 @@
 		}
 	}
 
+	h2 {
+		font-size: 38px;
+		line-height: 40px;
+		padding-top: 40px;
+		margin-bottom: 40px;
+
+		.h2__row {
+			color: #fff;
+			font-size: 30px;
+			line-height: 30px;
+			padding: 5px 15px;
+			margin-top: 6px;
+			background: #2d2d2d;
+			display: inline-block;
+		}
+	}
 }
