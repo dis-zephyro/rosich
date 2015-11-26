@@ -1,4 +1,43 @@
 .b09 {
+	color: #fff;
 	height: 430px;
+	padding-top: 50px;
 	background: url("../img/b09_bg.jpg") top center no-repeat;
+
+	h2 {
+		font-size: 25px;
+		text-align: left;
+		line-height: 30px;
+		font-style: normal;
+		margin-bottom: 20px;
+	}
+
+	.left-col {
+		float: left;
+		width: 250px;
+		text-align: center;
+
+		img {
+			margin-bottom: 20px;
+		}
+	}
+
+	.right-col {
+		margin-left: 315px;
+
+		p {
+			font-size: 15px;
+			line-height: 20px;
+			font-style: italic;
+			margin-bottom: 15px;
+			font-family: $font-arian;
+		}
+
+		.author {
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 20px;
+			padding-top: 10px;
+		}
+	}
 }

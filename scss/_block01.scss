@@ -7,7 +7,28 @@
 		padding-top: 200px;
 
 		.form-block {
+			color: #fff;
 			float: right;
+			background: rgba(44,44,44, 0.88);
+		}
+
+		.form__title {
+			color: #e8cf00;
+		}
+
+		.form__text {
+			color: #fff;
+		}
+
+		.form-control {
+			border-color: transparent;
+		}
+
+		.red {
+
+			.form-control {
+				border-color: #ff0000;
+			}
 		}
 	}
 

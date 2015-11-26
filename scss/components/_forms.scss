@@ -1,7 +1,6 @@
 .form-control {
 	margin: 0;
 	width: 100%;
-	border: none;
 	outline: none;
 	color: #595959;
 	font-size: 13px;
@@ -9,7 +8,8 @@
 	line-height: 21px;
 	font-weight: 300;
 	display: inline-block;
-	padding: 10px 10px 10px 50px;
+	border: 1px solid #9b9b9b;
+	padding: 10px 10px 10px 10px;
 	@include border-radius(4px);
 	@include placeholder(#595959);
 
@@ -20,14 +20,17 @@
 	}
 
 	&.form-name {
+		padding-left: 50px;
 		background: #fff url("../img/icon_user.png") 12px 50% no-repeat;
 	}
 
 	&.form-phone{
+		padding-left: 50px;
 		background: #fff url("../img/icon_phone.png") 12px 50% no-repeat;
 	}
 
 	&.form-email {
+		padding-left: 50px;
 		background: #fff url("../img/icon_email.png") 12px 50% no-repeat;
 	}
 
@@ -39,10 +42,6 @@
 
 	.form-control {
 		border-color: #ff0000;
-
-		&.invert {
-			border-color: #ff0000;
-		}
 	}
 }
 
@@ -59,21 +58,22 @@ label {
 .form-block {
 	width: 316px;
 	padding: 20px;
-	background: rgba(44,44,44, 0.8);
+	color: #1f1f1f;
+	background: #fff;
 	@include border-radius(4px);
 }
 
 .form__title {
-	color: #e8cf00;
 	margin: 0 -10px;
 	font-size: 20px;
 	line-height: 20px;
 	margin-bottom: 15px;
+	text-align: center;
 	font-family: $font-UniSansHeavy;
 }
 
 .form__text {
-	color: #fff;
+	color: #1c1c1b;
 	margin: 0 -10px;
 	font-size: 14px;
 	font-weight: 300;
@@ -93,10 +93,9 @@ label {
 }
 
 .form__sup {
-	color: #fff;
 	font-size: 11px;
 	font-weight: 600;
-	line-height: 20px;
+	line-height: 16px;
 	text-align: center;
 }
 
@@ -108,4 +107,8 @@ label {
 	cursor: pointer;
 	position: absolute;
 	background: url("../img/icon_close.png") 0 0 no-repeat;
+}
+
+.modal-service {
+	padding-bottom: 25px;
 }

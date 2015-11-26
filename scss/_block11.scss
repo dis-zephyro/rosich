@@ -1,0 +1,96 @@
+.b11 {
+	color: #161616;
+	background: #fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	.column {
+		float: left;
+		width: 330px;
+
+		&.pull-right {
+			width: 290px;
+			padding-top: 30px;
+		}
+
+		&.dev {
+			padding-top: 30px;
+		}
+
+
+	}
+
+	.b11__logo {
+		height: 70px;
+		font-size: 13px;
+		padding-top: 15px;
+		line-height: 16px;
+		position: relative;
+		padding-left: 80px;
+		margin-bottom: 5px;
+
+		.logo-image {
+			top: 0;
+			left: 0;
+			width: 70px;
+			height: 70px;
+			content:  ' ';
+			overflow: hidden;
+			position: absolute;
+		}
+	}
+
+
+	.b11__contact {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			font-size: 13px;
+			font-weight: 300;
+			line-height: 15px;
+
+			&:first-child {
+				font-size: 13px;
+				margin-bottom: 5px;
+			}
+
+			span {
+				display: block;
+			}
+
+			&:last-child {
+				font-size: 0;
+				line-height: 0;
+				padding-top: 10px;
+
+				a {
+					width: 44px;
+					overflow: hidden;
+					margin-left: 5px;
+					display: inline-block;
+				}
+			}
+		}
+	}
+
+	.call-title {
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 20px;
+		text-align: right;
+		margin-bottom: 10px;
+	}
+
+	.b11__tel {
+		color: #000;
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom: 6px;
+		text-align: right;
+		display: block;
+		text-decoration: none;
+		font-family: $font-UniSansHeavy;
+	}
+}

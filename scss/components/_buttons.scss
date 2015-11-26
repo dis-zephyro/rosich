@@ -30,7 +30,7 @@
 	}
 }
 
-.btn-submit {
+.btn-large {
 	width: 100%;
 	font-size: 17px;
 	font-weight: 400;
@@ -40,6 +40,39 @@
 	border-bottom: 4px solid #106ca9;
 
 	&:hover {
+		background: #81c6f4;
 		border-bottom-color: #65acdc;
+	}
+}
+
+.btn-yellow {
+	color: #202020;
+	font-weight: 400;
+	padding: 10px 10px;
+	background: #e8cf00;
+	text-transform: uppercase;
+	font-family: $font-UniSansHeavy;
+
+
+	&:hover {
+		color: #202020;
+		background: #ffe61a;
+	}
+}
+
+.btn-yellow-large {
+	width: 100%;
+	font-size: 17px;
+	padding: 15px 10px;
+	border-bottom: 4px solid #c0a903;
+
+	&:hover {
+		color: #202020;
+		background: #ffe61a;
+		border-bottom-color: #ccb723;
+	}
+
+	&.fz12 {
+		font-size: 12px;
 	}
 }
