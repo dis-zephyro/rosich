@@ -66,7 +66,7 @@ $(document).ready(function() {
             }).done(function(msg) {
                 $('form').find('input[type=text], textarea').val('');
                 console.log('удачно');
-                document.location.href = "http://zephyrus.ru/project/2015/rosich/done.html";
+                document.location.href = "http://rosich134.ru/done.html";
             });
         }
     });

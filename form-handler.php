@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mail = new PHPMailer();
     $mail->From = 'rosich'; // от кого
     $mail->FromName = 'rosich'; // от кого
-    $mail->AddAddress('zephyro@yandex.ru', 'rosich'); // кому - адрес, Имя
+    $mail->AddAddress('rosich34@yandex.ru', 'rosich'); // кому - адрес, Имя
 
     $mail->IsHTML(true); // выставляем формат письма HTML
     $mail->Subject = $thm; // тема письма
