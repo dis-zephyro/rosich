@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 	
     require 'class.phpmailer.php';
-    $thm = 'Вам отправлено сообщение с сайта factorymebel - ' . $form;
+    $thm = 'Вам отправлено сообщение с сайта rosich - ' . $form;
     $msg = "<strong>Форма:</strong> $form <br/>";
     if(isset($name)){$msg .= "<strong>Имя:</strong> $name <br/>";}
     if(isset($phone)){$msg .= "<strong>Телефон:</strong> $phone <br/>";}
@@ -19,8 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $mail = new PHPMailer();
     $mail->From = 'rosich'; // от кого
-    $mail->FromName = 'modal-service'; // от кого
-    $mail->AddAddress('zephyro@yandex.ru', 'factorymebel'); // кому - адрес, Имя
+    $mail->FromName = 'rosich'; // от кого
+    $mail->AddAddress('zephyro@yandex.ru', 'rosich'); // кому - адрес, Имя
 
     $mail->IsHTML(true); // выставляем формат письма HTML
     $mail->Subject = $thm; // тема письма

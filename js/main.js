@@ -37,7 +37,7 @@ function init(){
 }
 
 
-// ----- Маска ----------
+// ----- РњР°СЃРєР° ----------
 jQuery(function($){
     $("input[name='phone']").mask("+7(999) 999-9999");
 });
@@ -47,8 +47,8 @@ $(document).ready(function() {
 
     $('.btn-submit').click(function() {
 
-        $('body').find('form:not(this)').children('div').removeClass('red'); //удаление всех сообщение об ошибке(валидатора)
-        var answer = checkForm($(this).closest('form').get(0)); //ответ от валидатора
+        $('body').find('form:not(this)').children('div').removeClass('red'); //СѓРґР°Р»РµРЅРёРµ РІСЃРµС… СЃРѕРѕР±С‰РµРЅРёРµ РѕР± РѕС€РёР±РєРµ(РІР°Р»РёРґР°С‚РѕСЂР°)
+        var answer = checkForm($(this).closest('form').get(0)); //РѕС‚РІРµС‚ РѕС‚ РІР°Р»РёРґР°С‚РѕСЂР°
         if(answer != false)
         {
             var $form = $(this).closest('form'),
@@ -65,8 +65,8 @@ $(document).ready(function() {
                 data: {name: name, phone: phone, email:email, form:form, type:type, message:message}
             }).done(function(msg) {
                 $('form').find('input[type=text], textarea').val('');
-                console.log('удачно');
-                document.location.href = "../done.html";
+                console.log('СѓРґР°С‡РЅРѕ');
+                document.location.href = "http://zephyrus.ru/project/2015/rosich/done.html";
             });
         }
     });
