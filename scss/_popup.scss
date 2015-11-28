@@ -1,0 +1,37 @@
+.modal-service {
+	width: 740px;
+	padding: 20px;
+	color: #282828;
+	font-size: 14px;
+
+	.row {
+		overflow: hidden;
+		position: relative;
+		margin-bottom: 15px;
+	}
+
+	.gray-box {
+		padding: 15px;
+		background: #f3f3f3;
+		@include border-radius(8px);
+	}
+
+	.row-img-right {
+		float: right;
+		width: 330px;
+	}
+
+	.row-img-left {
+		float: left;
+	}
+
+	.row-text-left {
+		float: left;
+		width: 350px;
+	}
+
+	.row-text-right {
+		float: right;
+		width: 550px;
+	}
+}

@@ -247,6 +247,18 @@ h2 {
   text-transform: uppercase;
   font-family: "UniSansHeavyCAPS-Regular", sans-serif; }
 
+h3 {
+  color: #265cd5;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase; }
+
+h4 {
+  font-size: 16px;
+  font-weight: 700; }
+
 p {
   padding: 0;
   margin: 0 0 10px 0; }
@@ -255,6 +267,24 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none; }
+
+ul.blue-point {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  ul.blue-point li {
+    padding-left: 10px;
+    position: relative; }
+    ul.blue-point li:before {
+      left: 0;
+      top: 0;
+      width: 14px;
+      content: '.';
+      color: #265cd5;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 14px;
+      position: absolute; }
 
 .text-yellow {
   color: #e8cf00; }
@@ -456,9 +486,6 @@ label {
   cursor: pointer;
   position: absolute;
   background: url("../img/icon_close.png") 0 0 no-repeat; }
-
-.modal-service {
-  padding-bottom: 25px; }
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -3256,5 +3283,33 @@ label {
     display: block;
     text-decoration: none;
     font-family: "UniSansHeavyCAPS-Regular", sans-serif; }
+
+.modal-service {
+  width: 740px;
+  padding: 20px;
+  color: #282828;
+  font-size: 14px; }
+  .modal-service .row {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px; }
+  .modal-service .gray-box {
+    padding: 15px;
+    background: #f3f3f3;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px; }
+  .modal-service .row-img-right {
+    float: right;
+    width: 330px; }
+  .modal-service .row-img-left {
+    float: left; }
+  .modal-service .row-text-left {
+    float: left;
+    width: 350px; }
+  .modal-service .row-text-right {
+    float: right;
+    width: 550px; }
 
 /*# sourceMappingURL=main.css.map */

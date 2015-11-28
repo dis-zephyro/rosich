@@ -75,6 +75,20 @@ h2 {
 	font-family: $font-UniSansHeavy;
 }
 
+h3 {
+	color: #265cd5;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
 p {
 	padding: 0;
 	margin: 0 0 10px 0;
@@ -86,6 +100,29 @@ ul {
 	list-style: none;
 }
 
+ul.blue-point {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		padding-left: 10px;
+		position: relative;
+
+		&:before {
+			left: 0;
+			top: 0;
+			width: 14px;
+			content: '.';
+			color: #265cd5;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 14px;
+			position: absolute;
+
+		}
+	}
+}
 
 .text-yellow {
 	color: #e8cf00;
